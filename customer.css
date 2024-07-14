@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ecbcb0;
+}
+
+/* navbar css starts here  */
+.bg-light {
+    background-color: #c549b3 !important;
+}
+
+.navbar-brand {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: #1a2a3d !important;
+}
+
+.nav-link {
+    color: #293c53 !important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #f3f1f1;
+}
+
+/* navbar css ends here  */
+
+.my-info {
+    padding: 2rem 5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+}
+
+.my-info h2 {
+    font-size: 2rem;
+    color: #424c58;
+}
+
+.my-info h4 {
+    font-size: 1.5rem;
+    color: #2f3741;
+}
+
+.btn-info {
+    padding: 1rem 1.2rem;
+    background-color: rgb(141, 138, 40) !important;
+    color: #fff !important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover {
+    background-color: rgb(61, 70, 154) !important;
+}
+
+.table {
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background-color: #f2e9e4;
+    color: #5f6368;
+}
+
+.table td {
+    color: #5f6368;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f3f1f1;
+}
+
+.modal-header {
+    background-color: #f2e9e4;
+    color: #5f6368;
+}
+
+.modal-footer .btn-secondary {
+    background-color: #e0e0e0;
+    color: #5f6368;
+}
+
+.modal-footer .btn-success {
+    background-color: rgb(78, 153, 223);
+    color: #fff;
+}
+
+.modal-footer .btn-danger {
+    background-color: rgb(78, 153, 223);
+    color: #fff;
+}
+
+.input-group-text {
+    background-color: #f2e9e4;
+    color: #5f6368;
+}
+
+.input-group .form-control {
+    background-color: #fff;
+    border: 1px solid #f2e9e4;
+}
+
+.input-group .form-control:focus {
+    border-color: rgb(78, 153, 223);
+    box-shadow: none;
+}
